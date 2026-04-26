@@ -1,0 +1,27 @@
+Node.js runtime versioning
+
+Node.js follows semantic versioning (SemVer):
+
+Format:
+
+MAJOR.MINOR.PATCH
+Example:
+18.17.0
+MAJOR → breaking changes
+MINOR → new features (backward compatible)
+PATCH → bug fixes
+
+👉 Example:
+
+18.16.0 → 18.17.0 → new feature
+18.17.0 → 18.17.1 → bug fix
+18.x → 19.x → breaking change
+
+
+Dependency version symbols
+
+In package.json, you’ll see symbols like:
+
+^1.2.3 → allows minor + patch updates
+~1.2.3 → allows only patch updates
+1.2.3 → exact version
